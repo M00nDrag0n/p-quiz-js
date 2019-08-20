@@ -1,3 +1,27 @@
+body {
+  font-family: 'Spectral';
+  font-size: 19px;
+  color: white;
+  background-color: black;
+}
+.jumbotron {
+  margin-left: 20px;
+  color: black;
+  border-color: #96efff;
+  border-style: solid;
+  border-top-color: #19c28c;
+  border-left-color: #0316a3;
+  border-right-color: #0316a3;
+
+}
+
+button {
+  color: black;
+  margin-left: 20px;
+}
+
+
+
 #mood-responses {
   display: none;
 }
@@ -6,10 +30,14 @@
   display: none;
 }
 
-#mood {
-
+#moods {
+margin-left: 20px;
+border-style: solid;
+border-color: #a0e9fa;
 }
 
 #stress {
-  
+  margin-left: 20px;
+  border-style: solid;
+  border-color: #a0e9fa;
 }
